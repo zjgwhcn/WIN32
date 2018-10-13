@@ -1,0 +1,6 @@
+ 使用 nmake 或下列命令进行编译和链接
+1、运行var
+2、进入ASM文件目录，运行ml /c /coff Test.asm
+2、用VC++建立fishc.rc文件
+3、rc Test.rc
+4、Link subsystemwindows Test.obj Test.res
